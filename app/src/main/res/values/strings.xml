@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MAVSDK Android</string>
+    <string name="access_token">pk.eyJ1IjoibWF2ZHNrLWphdmEtc2FtcGxlIiwiYSI6ImNrMGZjY2lxNTBpbzIzZ2xjaGlsNDZ5YXkifQ.f0jCQvYbGQecPCFFy_3jSA</string>
+    <string name="kill">Kill</string>
+    <string name="return_home">Return</string>
+    <string name="land">Land</string>
+    <string name="takeoff">Takeoff</string>
+    <string name="state_na">State: N/A</string>
+    <string name="battery_na">Battery: N/A</string>
+    <string name="mode_na">Mode: N/A</string>
+    <string name="sat_na">Sat: N/A</string>
+    <string name="radio_na">Radio: N/A</string>
+    <string name="lat_na">Lat: N/A</string>
+    <string name="lon_na">Lon: N/A</string>
+    <string name="alt_na">Alt: N/A</string>
+    <string name="h_speed_na">H-Speed: N/A</string>
+    <string name="v_speed_na">V-Speed: N/A</string>
+    <string name="dis_na">Dis: N/A</string>
+    <string name="yaw_na">Yaw: N/A</string>
+    <string name="mount_yaw_na">Mount-Yaw: N/A</string>
+    <string name="health_na">Health: N/A</string>
+
+    <string name="state">State: %s</string>
+    <string name="battery">Battery: %d%c-%.1f v</string>
+    <string name="mode">Mode: %s</string>
+    <string name="sat">Sat: %d-%s</string>
+    <string name="radio">Radio: %s</string>
+    <string name="n_a">N/A</string>
+    <string name="lat">Lat: %.7f</string>
+    <string name="lon">Lon: %.7f</string>
+    <string name="alt">Alt: %.6f</string>
+    <string name="h_speed">H-Speed: %.1f m/s</string>
+    <string name="v_speed">V-Speed: %.1f m/s</string>
+    <string name="dis">Dis: %.2f m</string>
+    <string name="yaw">Yaw: %.2f</string>
+    <string name="mount_yaw">Mount-Yaw: %.2f</string>
+    <string name="health">Health: %s</string>
+    <string name="armable">Armable</string>
+    <string name="no_gps_permission">Not grant GPS permission cause no distance</string>
+
+    <string name="sd_na">SD Cap\nN/A</string>
+    <string name="sd_capacity">SD Cap\n%.1f|%.1f GB</string>
+    <string name="can_not_switch_mode">Can\'t switch mode on recording.</string>
+    <string name="can_not_photo">Can\'t take photo in progress.</string>
+    <string name="take_photo_fail">Take photo failed.</string>
+    <string name="start_record_fail">Start record failed.</string>
+    <string name="stop_record_fail">Stop record failed.</string>
+    <string name="switch_mode_fail">Switch mode failed.</string>
+</resources>

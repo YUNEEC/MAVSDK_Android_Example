@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="-1dp"
+        android:name="io.mavsdk.androidclient.fragment.MapFragment"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/telemetry_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="io.mavsdk.androidclient.fragment.TelemetryFragment"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/drone_action_fragment"
+        android:layout_width="@dimen/action_fragment_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:name="io.mavsdk.androidclient.fragment.ActionFragment"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/video_fragment"
+        android:layout_gravity="end|bottom"
+        android:layout_width="@dimen/video_width"
+        android:layout_height="@dimen/video_height"
+        android:name="io.mavsdk.androidclient.fragment.VideoFragment"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/camera_fragment"
+        android:layout_width="@dimen/camera_fragment_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:name="io.mavsdk.androidclient.fragment.CameraFragment"/>
+</FrameLayout>
