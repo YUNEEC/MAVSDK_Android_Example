@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragment.ActionFragment">
+
+    <Button
+        android:id="@+id/action_takeoff"
+        android:layout_width="@dimen/action_icon_width"
+        android:layout_height="@dimen/action_icon_width"
+        android:background="@drawable/btn_take_off_selector"
+        android:padding="@dimen/btn_padding" />
+
+    <Button
+        android:id="@+id/action_rtl"
+        android:layout_width="@dimen/action_icon_width"
+        android:layout_height="@dimen/action_icon_width"
+        android:background="@drawable/btn_go_home_selector"
+        android:padding="@dimen/btn_padding" />
+
+    <Button
+        android:id="@+id/action_landing"
+        android:layout_width="@dimen/action_icon_width"
+        android:layout_height="@dimen/action_icon_width"
+        android:background="@drawable/btn_start_land_selector"
+        android:padding="@dimen/btn_padding" />
+
+    <Button
+        android:id="@+id/action_mission"
+        android:layout_width="@dimen/action_icon_width"
+        android:layout_height="@dimen/action_icon_width"
+        android:background="@drawable/btn_start_running_selector"
+        android:padding="@dimen/btn_padding" />
+</LinearLayout>
